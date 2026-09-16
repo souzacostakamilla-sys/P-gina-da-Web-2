@@ -14,11 +14,27 @@ header{
 main{
     margin: 0 auto;
     padding: 15px;
+
+    display: flex;
+    flex-wrap: wrap;
             
 }
 
 article{
     display:flex;
+
+    border: 1px solid #474D83;
+
+    margin: 16px;
+    gap: 16px;
+    padding: 16px;
+
+    flex: 1 1 25%;
+
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 
 }
 
